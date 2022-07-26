@@ -3,10 +3,7 @@ package br.com.zup.marvel.ui.register
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import br.com.zup.marvel.CREATE_USER_ERROR_MESSAGE
-import br.com.zup.marvel.EMAIL_ERROR_MESSAGE
-import br.com.zup.marvel.NAME_ERROR_MESSAGE
-import br.com.zup.marvel.PASSWORD_ERROR_MESSAGE
+import br.com.zup.marvel.*
 import br.com.zup.marvel.data.model.User
 import br.com.zup.marvel.data.repository.AuthenticationRepository
 
@@ -29,6 +26,12 @@ class RegisterViewModel : ViewModel() {
             }
             user.password.isEmpty() -> {
                 _errorState.value = PASSWORD_ERROR_MESSAGE
+            }
+            user.name.length < 3 -> {
+                _errorState.value = NAME_LENGTH_ERROR_MESSAGE
+            }
+            user.password.length < 8 -> {
+                _errorState.value = PASSWORD_LENGTH_ERROR_MESSAGE
             }
             else -> {
                 registerUser(user)
