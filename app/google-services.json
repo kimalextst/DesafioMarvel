@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "265542231469",
+    "project_id": "desafiomarvel",
+    "storage_bucket": "desafiomarvel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265542231469:android:622b81f5ce17df1aff6d24",
+        "android_client_info": {
+          "package_name": "br.com.zup.marvel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265542231469-2e7hggqrj7suul1huqg19q8174mm5k3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb31rXG3wSN0u-AAZY-KVMkO86Lmrv3Pg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265542231469-2e7hggqrj7suul1huqg19q8174mm5k3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

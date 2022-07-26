@@ -23,7 +23,7 @@
         android:layout_marginTop="@dimen/margin_16"
         android:text="@string/lista_nome_heroi"
         android:textAlignment="center"
-        android:textSize="@dimen/font_size_16"
+        android:textSize="@dimen/text_16"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/ivHeroiDetalhe"
         app:layout_constraintStart_toStartOf="@+id/ivHeroiDetalhe"
